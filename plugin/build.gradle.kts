@@ -13,7 +13,7 @@ val pluginPackageName = "org.godotengine.plugin.android.template"
 
 android {
     namespace = pluginPackageName
-    compileSdk = 33
+    compileSdk = 34
 
     buildFeatures {
         buildConfig = true
@@ -38,7 +38,7 @@ android {
 }
 
 dependencies {
-    implementation("org.godotengine:godot:4.3.0.stable")
+    implementation("org.godotengine:godot:4.4.1.stable")
     // TODO: Additional dependencies should be added to export_plugin.gd as well.
 }
 
