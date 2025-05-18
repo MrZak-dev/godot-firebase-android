@@ -6,10 +6,10 @@ plugins {
 }
 
 // TODO: Update value to your plugin's name.
-val pluginName = "GodotAndroidPluginTemplate"
+val pluginName = "GodotFirebaseAndroid"
 
 // TODO: Update value to match your plugin's package name.
-val pluginPackageName = "org.godotengine.plugin.android.template"
+val pluginPackageName = "org.godotengine.plugin.android.firebase"
 
 android {
     namespace = pluginPackageName
@@ -39,6 +39,7 @@ android {
 
 dependencies {
     implementation("org.godotengine:godot:4.4.1.stable")
+    implementation("com.google.firebase:firebase-database:21.0.0")
     // TODO: Additional dependencies should be added to export_plugin.gd as well.
 }
 

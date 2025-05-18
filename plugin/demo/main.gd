@@ -1,7 +1,7 @@
 extends Node2D
 
 # TODO: Update to match your plugin's name
-var _plugin_name = "GodotAndroidPluginTemplate"
+var _plugin_name = "GodotFirebaseAndroid"
 var _android_plugin
 
 func _ready():
@@ -14,3 +14,9 @@ func _on_Button_pressed():
 	if _android_plugin:
 		# TODO: Update to match your plugin's API
 		_android_plugin.helloWorld()
+
+
+func _on_button_2_pressed() -> void:
+	if _android_plugin:
+		# TODO: Update to match your plugin's API
+		_android_plugin.initialize()
